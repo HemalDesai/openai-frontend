@@ -56,7 +56,7 @@ export default function ImageGenerator() {
 
   const generateImage = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/v1/dalle", {
+      const response = await fetch("https://openai-nzsc.onrender.com/api/v1/dalle", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
